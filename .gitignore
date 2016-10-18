@@ -4,3 +4,5 @@ Servers/
 spring-demo-one/.classpath
 RemoteSystemsTempFiles/.project
 spring-demo-one/.project
+spring-demo-annotations/.classpath
+spring-demo-annotations/.project
