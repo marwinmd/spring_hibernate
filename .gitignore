@@ -1,0 +1,6 @@
+.metadata/
+.recommenders/
+Servers/
+spring-demo-one/.classpath
+RemoteSystemsTempFiles/.project
+spring-demo-one/.project
