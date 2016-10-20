@@ -17,6 +17,14 @@
 		<form:select path="country">
 			<form:options items="${student.countryOptions}" />
 		</form:select>
+		<br>
+		<br>
+		Favorite Language:
+		<br>
+		Java<form:radiobutton path="favoriteLanguage" value="Java" />
+		C#<form:radiobutton path="favoriteLanguage" value="C#" />
+		PHP<form:radiobutton path="favoriteLanguage" value="PHP" />
+		Ruby<form:radiobutton path="favoriteLanguage" value="Ruby" />
 
 		<input type="submit" value="Submit" />
 	</form:form>
