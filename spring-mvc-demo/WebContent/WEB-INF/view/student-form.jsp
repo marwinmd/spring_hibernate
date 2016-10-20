@@ -6,7 +6,7 @@
 <title>Student Registration Form</title>
 </head>
 <body>
-	<h3>StudentRegistration Form</h3>
+	<h3>Student Registration Form</h3>
 	<form:form action="processForm" modelAttribute="student">
 		First Name: <form:input path="firstName" />
 		<br>
@@ -26,6 +26,16 @@
 		PHP<form:radiobutton path="favoriteLanguage" value="PHP" />
 		Ruby<form:radiobutton path="favoriteLanguage" value="Ruby" />
 
+		<br>
+		<br>
+		
+		Favorite Operating System:
+		<br>
+		Linux: <form:checkbox path="operatingSystems" value="Linux" />
+		Mac: <form:checkbox path="operatingSystems" value="Mac" />
+		Windows: <form:checkbox path="operatingSystems" value="Windows" />
+		<br>
+		<br>
 		<input type="submit" value="Submit" />
 	</form:form>
 </body>
