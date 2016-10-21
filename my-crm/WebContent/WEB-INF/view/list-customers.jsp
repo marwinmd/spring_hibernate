@@ -5,8 +5,7 @@
 <title>Customer Overview</title>
 </head>
 <body>
-
-	List Customers - coming soon....
+	<h3>Customer Overview</h3>
 
 	<div id="container">
 
@@ -20,20 +19,15 @@
 				</tr>
 
 				<c:forEach var="tempCustomer" items="${customers}">
-					<li>${tempCustomer.firstName}</li>
-					<li>${tempCustomer.lastName}</li>
-					<li>${tempCustomer.email}</li>
+				<tr>
+					<td>${tempCustomer.firstName}</td>
+					<td>${tempCustomer.lastName}</td>
+					<td>${tempCustomer.email}</td>
+				</tr>
 				</c:forEach>
-
 			</table>
 
 		</div>
 	</div>
-	<ul>
-		<c:forEach var="temp" items="${custmer.operatingSystems}">
-			<li>${temp}</li>
-
-		</c:forEach>
-	</ul>
 </body>
 </html>

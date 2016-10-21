@@ -1,8 +1,8 @@
-package com.luv2code.springdemo.dao;
+package com.wiechert.springdemo.server.dao;
 
 import java.util.List;
 
-import com.luv2code.springdemo.entity.Customer;
+import com.wiechert.springdemo.server.domain.Customer;
 
 public interface CustomerDAO {
 	

@@ -1,4 +1,4 @@
-package com.luv2code.springdemo.entity;
+package com.wiechert.springdemo.server.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

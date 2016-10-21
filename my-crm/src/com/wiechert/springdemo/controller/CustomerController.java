@@ -1,4 +1,4 @@
-package com.luv2code.springdemo.controller;
+package com.wiechert.springdemo.controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.luv2code.springdemo.dao.CustomerDAO;
-import com.luv2code.springdemo.entity.Customer;
+import com.wiechert.springdemo.server.dao.CustomerDAO;
+import com.wiechert.springdemo.server.domain.Customer;
 
 @Controller
 @RequestMapping("/customer")
