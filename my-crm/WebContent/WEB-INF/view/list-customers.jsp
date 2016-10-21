@@ -3,10 +3,16 @@
 <html>
 <head>
 <title>Customer Overview</title>
+<link type="text/css" rel="stylesheet"
+	href="${pageContext.request.contextPath}/resources/css/style.css">
 </head>
 <body>
-	<h3>Customer Overview</h3>
-
+	<div id="wrapper">
+		<div id="header">
+			<h3>Customer Overview</h3>
+		</div>
+	</div>
+<br><br>
 	<div id="container">
 
 		<div id="container">
@@ -19,11 +25,11 @@
 				</tr>
 
 				<c:forEach var="tempCustomer" items="${customers}">
-				<tr>
-					<td>${tempCustomer.firstName}</td>
-					<td>${tempCustomer.lastName}</td>
-					<td>${tempCustomer.email}</td>
-				</tr>
+					<tr>
+						<td>${tempCustomer.firstName}</td>
+						<td>${tempCustomer.lastName}</td>
+						<td>${tempCustomer.email}</td>
+					</tr>
 				</c:forEach>
 			</table>
 
